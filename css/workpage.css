@@ -1,0 +1,95 @@
+
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+background-color: #000
+}
+
+ .jumbotron {
+  text-align: center;
+  background-image: url('../images/summer.jpg');
+  padding-top: 170px;
+  padding-bottom: 170px;
+  margin-bottom: 0px
+
+}
+.jumbotron h1 { font-size: 40px; 
+
+font-family: 'Roboto', sans-serif;
+color: #f5ecec ;
+
+}
+
+.emphasis {color: blue;
+font-size: 25px;
+}
+
+.navbar-brand { font-size: 25px; }
+.navbar-right { font-size: 22px }
+.navbar-inverse .navbar-nav>li>a { color:#f5ecec }
+.navbar-inverse .navbar-brand  { color:#f5ecec; }
+.h2, h2 {font-size: 28px; text-align:center; font-family: 'Roboto', sans-serif;}
+.h4, h4{ font-size: 35px; font-family: 'Roboto', sans-serif }
+.h4, p{font-size: 22px;font-family: 'Roboto', sans-serif}
+.h3, h3{font-size: 35px;font-family: 'Roboto', sans-serif}
+ p{font-size: 21px;font-family: 'Roboto', sans-serif}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;}
+#outside-container{  background-color: #e4dede}
+
+footer.container-fluid {
+    margin: auto;
+    text-align: center;
+  }
+
+  .container2{ text-align: center;
+  }
+
+  .container2 p { color:#f5ecec;
+  font-size: 20px; 
+  }
+
+.row {
+    margin-right: -150px;
+    margin-left: -80px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+  }
+
+  .button {
+   border-top: 1px solid #96d1f8;
+   background: #455661;
+   background: -webkit-gradient(linear, left top, left bottom, from(#7f9cb0), to(#455661));
+   background: -webkit-linear-gradient(top, #7f9cb0, #455661);
+   background: -moz-linear-gradient(top, #7f9cb0, #455661);
+   background: -ms-linear-gradient(top, #7f9cb0, #455661);
+   background: -o-linear-gradient(top, #7f9cb0, #455661);
+   padding: 15px 15px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #e6d6e6;
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #c4b8c4;
+   }
+.button:active {
+   border-top-color: #214a66;
+   background: #214a66;
+   }

@@ -1,0 +1,91 @@
+
+
+body {
+  padding-top: 50px;
+  padding-bottom: 0px;
+
+}
+
+ .jumbotron {
+	text-align: center;
+	background-image: url('../images/summer.jpg');
+	padding-top: 170px;
+  padding-bottom: 170px;
+  margin: 0px;
+
+  
+
+}
+.jumbotron h1 { font-size: 40px; color: #f5ecec;
+text-rendering: optimizeLegibility; 
+font-family: 'Roboto', sans-serif;
+
+}
+
+.jumbotron p{  color: #f5ecec;
+  text-rendering: optimizeLegibility;
+  font-family: 'Roboto', sans-serif;
+
+ }
+
+
+.navbar-brand { font-size: 25px;
+  
+
+}
+.navbar-right { font-size: 22px
+
+}
+
+.navbar-inverse .navbar-nav>li>a { color: #f5ecec;
+
+}
+
+.navbar-inverse .navbar-brand  { color: #f5ecec; 
+
+}
+.h2, h2 {font-size: 35px; text-align: center;}
+.h4, h4{ font-size: 35px; }
+
+.h3, h3{font-size: 35px}
+
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}    
+
+
+#outside-container{  background-color: #e4dede
+ 
+  }
+
+
+.container2{ text-align: center;
+      padding: 10px;
+      background-color: black;
+
+  }
+
+ .container2 p {
+  color:white;
+
+ font-size: 15px;
+
+}
+
+ p1 {font-size: 22px;  }
+ .col-md-4 p { font-size: 22px }
+
+ p3 { font-size: 25px; 
+ }
+
+ p4 { font-size: 25px; 
+
+ }
+
+/** Media resolution optimization-/**
+
+no need its perfect
