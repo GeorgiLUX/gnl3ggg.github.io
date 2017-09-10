@@ -33,7 +33,7 @@ font-family: 'Roboto', sans-serif;
   
 
 }
-.navbar-right { font-size: 22px
+.navbar-right { font-size: 22px 
 
 }
 
@@ -44,10 +44,14 @@ font-family: 'Roboto', sans-serif;
 .navbar-inverse .navbar-brand  { color: #f5ecec; 
 
 }
-.h2, h2 {font-size: 35px; text-align: center;}
-.h4, h4{ font-size: 35px; }
+.h2, h2 {font-size: 35px; font-family: 'Roboto', sans-serif;  text-align: center;}
+.h4, h4{ font-size: 35px; ; font-family: 'Roboto', sans-serif; 
 
-.h3, h3{font-size: 35px}
+}
+
+.h3, h3{font-size: 35px ; font-family: 'Roboto', sans-serif; 
+
+} 
 
 
 .container {
@@ -64,7 +68,7 @@ font-family: 'Roboto', sans-serif;
 
 
 .container2{ text-align: center;
-      padding: 10px;
+      padding: 10px;  font-family: 'Roboto', sans-serif; 
       background-color: black;
 
   }
@@ -72,17 +76,17 @@ font-family: 'Roboto', sans-serif;
  .container2 p {
   color:white;
 
- font-size: 15px;
+ font-size: 15px ; font-family: 'Roboto', sans-serif; ;
 
 }
 
- p1 {font-size: 22px;  }
+ p1 {font-size: 22px;  font-family: 'Roboto', sans-serif;  }
  .col-md-4 p { font-size: 22px }
 
- p3 { font-size: 25px; 
+ p3 { font-size: 25px; font-family: 'Roboto', sans-serif; 
  }
 
- p4 { font-size: 25px; 
+ p4 { font-size: 25px;  font-family: 'Roboto', sans-serif; 
 
  }
 
