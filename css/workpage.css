@@ -3,7 +3,7 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
-background-color: #000
+  background-color: #000
 }
 
  .jumbotron {
@@ -58,7 +58,7 @@ footer.container-fluid {
     margin-right: -150px;
     margin-left: -80px;
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 35px;
 
   }
 
@@ -93,3 +93,27 @@ footer.container-fluid {
    border-top-color: #214a66;
    background: #214a66;
    }
+
+ul{
+  font-size: 21px;font-family: 'Roboto', sans-serif; 
+  list-style-type: disc;
+
+}
+
+ol{
+
+  list-style-type:upper-roman; 
+  font-size: 21px;font-family: 'Roboto', sans-serif
+}
+
+p.list{
+
+  font-size: 15px;font-family: 'Roboto', sans-serif
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #908a8a;
+}
