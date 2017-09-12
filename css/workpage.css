@@ -137,6 +137,13 @@ hr {
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+.row { 
+    margin-left: 0px;
+    margin-right: 0px;
+   
+    padding-bottom: 50px;
+    padding-top: 35px;
+  }
 
 }
 
