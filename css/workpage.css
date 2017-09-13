@@ -32,7 +32,7 @@ font-size: 25px;
 .h2, h2 {font-size: 28px; text-align:center; font-family: 'Roboto', sans-serif;}
 .h4, h4{ font-size: 35px; font-family: 'Roboto', sans-serif }
 .h4, p{font-size: 22px;font-family: 'Roboto', sans-serif}
-.h3, h3{font-size: 35px;font-family: 'Roboto', sans-serif}
+.h3, h3{font-size: 35px;font-family: 'Roboto', sans-serif; text-align: center;}
  p{font-size: 21px;font-family: 'Roboto', sans-serif}
 
 .container {
@@ -123,15 +123,39 @@ hr {
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
 
+  .row { 
+    margin-left: 0px;
+    margin-right: 0px;
+   
+    padding-bottom: 50px;
+    padding-top: 35px;
+  }
+
 }
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
 
+  .row { 
+    margin-left: 0px;
+    margin-right: 0px;
+   
+    padding-bottom: 50px;
+    padding-top: 35px;
+  }
+
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
+
+  .row { 
+    margin-left: 0px;
+    margin-right: 0px;
+   
+    padding-bottom: 50px;
+    padding-top: 35px;
+  }
 
 }
 
@@ -182,12 +206,42 @@ ol{
 .h2, h2 {font-size: 24px; text-align:center; font-family: 'Roboto', sans-serif;}
 .h4, h4{ font-size: 31px; font-family: 'Roboto', sans-serif }
 .h4, p{font-size: 18px;font-family: 'Roboto', sans-serif}
-.h3, h3{font-size: 31px;font-family: 'Roboto', sans-serif}
+.h3, h3{font-size: 31px;font-family: 'Roboto', sans-serif;
+      text-align: center;}
  p{font-size: 16px;font-family: 'Roboto', sans-serif}
 
 .jumbotron h1 { font-size: 30px;
 }
-  
+  }
+
+
+  img {
+    vertical-align: middle;
+    width: 100%;
+    opacity: 0.5;
+    border-radius: 40px;
+}
+
+img.ux{
+
+   
+    height: 600px;
+    opacity: 0.8;
+    width: 100%;
+    height: 330px;
+    image-rendering: pixelated;
 
 }
-    
+
+img.zaplata{
+
+  vertical-align: middle;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 40px;
+
+
+}
+p.zaplata{
+  text-align: center;
+}
