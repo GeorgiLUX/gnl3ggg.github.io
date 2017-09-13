@@ -245,3 +245,15 @@ img.zaplata{
 p.zaplata{
   text-align: center;
 }
+
+p.meta{
+
+    text-align: center;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    color: #cbcbcb;
+    margin-bottom: 20px;
+}
