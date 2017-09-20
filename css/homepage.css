@@ -16,15 +16,21 @@ body {
   
 
 }
-.jumbotron h1 { font-size: 40px; color: #f5ecec;
-text-rendering: optimizeLegibility; 
-font-family: 'Roboto', sans-serif;
-
+.jumbotron h1 {
+    font-size: 150px;
+    color: #f5ecec;
+    text-rendering: optimizeLegibility;
+    font-family: 'Roboto', sans-serif;
+    line-height: .9em;
+    letter-spacing: .05em;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .jumbotron p{  color: #f5ecec;
   text-rendering: optimizeLegibility;
   font-family: 'Roboto', sans-serif;
+  margin: .5em 6.75% .5em 6.75%;
 
  }
 
@@ -44,7 +50,7 @@ font-family: 'Roboto', sans-serif;
 .navbar-inverse .navbar-brand  { color: #f5ecec; 
 
 }
-.h2, h2 {font-size: 35px; font-family: 'Roboto', sans-serif;  text-align: center;}
+.h2, h2 {font-size: 35px; font-family: 'Roboto', sans-serif;  text-align: center; padding-top: 20px; margin-bottom: 20px;}
 .h4, h4{ font-size: 30px; ; font-family: 'Roboto', sans-serif; 
 
 }
@@ -53,16 +59,32 @@ font-family: 'Roboto', sans-serif;
 
 } 
 
+.h1, .h2, .h3, h1, h2, h3 {
+    /* margin-top: 20px; */
+    /* margin-bottom: 10px; */
+    margin: 0px;
+}
+
+
 
 .container {
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-}    
+    }
+
+ .container-skills{
+   margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+   background-color: #e4dede;
+}
 
 
-#outside-container{  background-color: #e4dede
+#outside-container{  background-color: #e4dede;
+
  
   }
 
@@ -84,7 +106,15 @@ font-family: 'Roboto', sans-serif;
 }
 
 
- .col-md-4 p { font-size: 18px 
+  .row {
+    margin-right: -30px;
+    /* margin-left: -15px; */
+    height: 700px;
+    width: 100%;
+    padding-left: 300px;
+}
+
+ .col-md-4 p { font-size: 20px 
 
  }
  .col-md-4{
@@ -102,41 +132,210 @@ font-family: 'Roboto', sans-serif;
  }
 
  p.motivation{ font-size: 20px;  font-family: 'Roboto', sans-serif;
+ margin: .5em 6.75% .5em 6.75%;
 
  }
 
- .button {
-   border-top: 1px solid #040405;
-   background: #5e3556;
-   background: -webkit-gradient(linear, left top, left bottom, from(#131230), to(#5e3556));
-   background: -webkit-linear-gradient(top, #131230, #5e3556);
-   background: -moz-linear-gradient(top, #131230, #5e3556);
-   background: -ms-linear-gradient(top, #131230, #5e3556);
-   background: -o-linear-gradient(top, #131230, #5e3556);
-   padding: 18px 36px;
-   -webkit-border-radius: 26px;
-   -moz-border-radius: 26px;
-   border-radius: 26px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   box-shadow: rgba(0,0,0,1) 0 1px 0;
-   text-shadow: rgba(0,0,0,.4) 0 1px 0;
-   color: white;
-   font-size: 20px;
-   font-family: Georgia, serif;
-   text-decoration: none;
-   vertical-align: middle;
-   }
-.button:hover {
-   border-top-color: #28597a;
-   background: #28597a;
-   color: #ccc;
-   }
-.button:active {
-   border-top-color: #3a0d3b;
-   background: #3a0d3b;
-   }
+ .cross_line{
+
+    display: inline-block;
+    position: relative;
+    padding: 2.20em 4em;
+    border-top: solid 4px black;
+    border-bottom: solid 4px black;
+    text-decoration: none;
+    font-weight: bold;
+    color: #404246;
+}
+.cross_line:before, .cross_line:after{
+  content: '';
+  position: absolute;
+  top: -7px;
+  width: 2px;
+  height: -webkit-calc(100% + 14px);
+  height: calc(100% + 14px);
+  background-color: black;
+  transition: .5s;
+}
+.cross_line:before {left: 20px;}
+.cross_line:after {right: 20px;}
+.cross_line:hover:before{
+  top: 0px;
+  left:0;
+  height: 100%;
+}
+.cross_line:hover:after{
+  top: 0px;
+  right: 0;
+  height: 100%;
+}
+
+}
+
 
 /** Media resolution optimization-/**
 
-no need its perfect
+/* Large desktops and laptops */
+@media (min-width: 1510px){
+
+  .row {
+    margin-right: -30px;
+    margin-left: 60px;
+    height: 700px;
+    width: 100%;
+    padding-left: 300px;
+}
+
+ .col-md-4 p { font-size: 20px 
+
+ }
+ .col-md-4{
+
+    width: 30%;
+    margin-right: 39px;
+
+}
+}
+
+
+@media (min-width: 1200px) {
+
+.row {
+
+    margin-left: 60px;
+    height: auto;
+    width: 100%;
+    padding-left: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ .col-md-4 p { font-size: 20px 
+
+ }
+ .col-md-4{
+
+    width: 30%;
+    margin-right: 25px;
+
+}
+
+}
+
+
+
+
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+ .row {
+    /* margin-right: -30px; */
+    /* margin-left: -15px; */
+    height: auto;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-md-4 {
+    width: 30%;
+    margin-right: 25px;
+}
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .row {
+    /* margin-right: -30px; */
+    /* margin-left: -15px; */
+    height: auto;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-md-4 {
+    width: 80%;
+    /* margin-right: 10px; */
+    margin: auto;
+    /* margin-left: 0px; */
+    /* margin-right: 0px; */
+    /* margin-bottom: 0px; */
+    /* margin-top: 0px; */
+    padding-bottom: 40px;
+}
+
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+.row {
+    /* margin-right: -30px; */
+    /* margin-left: -15px; */
+    height: auto;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-md-4 {
+    width: 80%;
+    /* margin-right: 10px; */
+    margin: auto;
+    /* margin-left: 0px; */
+    /* margin-right: 0px; */
+    /* margin-bottom: 0px; */
+    /* margin-top: 0px; */
+    padding-bottom: 40px;
+}
+
+
+}
+
+/* Portrait phones and smaller */
+@media  (max-width: 480px)  {
+
+  .row {
+    /* margin-right: -30px; */
+    /* margin-left: -15px; */
+    height: auto;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-md-4 {
+    width: 30%;
+    margin: 0px;
+    
+}
+
+.jumbotron h1 {
+    font-size: 100px;
+    color: #f5ecec;
+    text-rendering: optimizeLegibility;
+    font-family: 'Roboto', sans-serif;
+    line-height: .9em;
+    letter-spacing: .05em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.col-md-4 p {
+    font-size: 20px;
+    width: 150px;
+}
