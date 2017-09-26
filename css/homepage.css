@@ -17,7 +17,7 @@ body {
 
 }
 .jumbotron h1 {
-    font-size: 150px;
+    font-size: 130px;
     color: #f5ecec;
     text-rendering: optimizeLegibility;
     font-family: 'Roboto', sans-serif;
@@ -58,6 +58,19 @@ body {
 .h3, h3{font-size: 30px ; font-family: 'Roboto', sans-serif; 
 
 } 
+
+.h5, h5{
+
+  font-size: 50px; ; font-family: 'Roboto', sans-serif;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  color: #f5ecec;
+  line-height: .9em;
+  letter-spacing: .05em;
+  text-rendering: optimizeLegibility;
+
+
+}
 
 .h1, .h2, .h3, h1, h2, h3 {
     /* margin-top: 20px; */
