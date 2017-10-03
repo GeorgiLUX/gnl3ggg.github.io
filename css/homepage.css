@@ -608,9 +608,7 @@ p.skillsdesign{
     margin-left: 3%;
     padding-bottom: 1%;
     padding-right: 2%;
-
-}
-
+  }
 }
 
 /* Landscape tablets and medium desktops */
@@ -651,6 +649,12 @@ p.skillsdesign {
   img.photoshop {
     margin-left: 0px;
     }
+    p.skills2 {
+    font-size: 16px;
+  }
+    p.skills1 {
+    font-size: 16px;
+  }
 }
 
 
