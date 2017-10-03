@@ -1,10 +1,14 @@
+body.modal-open {
+    overflow: auto;
+}
+body.modal-open[style] {
+    padding-right: 0px !important;
+}
 
-html {
-   -ms-overflow-style: scrollbar;
-   height: 100%;
- }
-
-
+.modal::-webkit-scrollbar {
+    width: 0 !important; /*removes the scrollbar but still scrollable*/
+    /* reference: http://stackoverflow.com/a/26500272/2259400 */
+}
 
 body {
   padding-top: 0px;
@@ -12,44 +16,37 @@ body {
   -webkit-font-smoothing: antialiased;
   padding-right: 0px;
   height: 100%;
-  overflow: auto;
-  margin-right: -17px;
-  }
-.modal-open{
 
-  padding-right: 0px!important;
 }
+  
 
-
- .jumbotron {                                           /* JUMBOTRON */
+ .jumbotron {                                 /* JUMBOTRON */
 	text-align: center;
 	background-image: url('../images/summer.jpg');
 	padding-top: 82px;
   padding-bottom: 80px;
   margin: 0px; 
-
-}
-
+  }
 
 
 header {
   background-image: url('../images/summer.jpg');
   height:auto;
   color:#000000;
-}
+  }
 
 
 #nav.navbar-custom.navbar-inverse.navbar-static-top.affix-top{ /* NAVBAR */
 
   border-top: 1.5px solid #EDECEC;  
-}
+  }
 
 #nav {
   width: 100%;
   position:static;
   top:-32px;
   margin-bottom: 0px;
-}
+  }
 
 
 #nav.affix {
@@ -57,7 +54,7 @@ header {
    top: 0;
    z-index:10;
    -webkit-transition: all .6s ease-in-out;
-}
+  }
 
 /* customize nav style */
 .navbar-custom {
@@ -65,27 +62,25 @@ header {
   font-weight:700;
     text-transform:uppercase;
     border-width:0;
-}
+  }
 .navbar-custom  .navbar-nav>li>a {
   color: #ddd;
-}
+  }
 .navbar-custom  .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a  {
   background-color: #000;
-}
+  }
 .navbar-custom .dropdown-menu{
   right:0;
-}
+  }
 .navbar-custom .navbar-nav>.dropdown>a .caret {
   border-top-color: #999;
   border-bottom-color: #999;
-}
+  }
 
 .nav-justified>li {
     display: table-cell;
     width: auto;
-}
-
-
+  }
 
 .container-motivation {                             /* CONTAINER MOTIVATIOM */
     margin-right: auto;
@@ -103,7 +98,7 @@ header {
     font-family: 'Roboto', sans-serif;
     margin: 0em 6.75% .5em 6.75%;
     padding: 25px 0px 10px 0px;
-  }
+    }
 
 .cross_line{
 
@@ -117,7 +112,7 @@ header {
     color: #404246;
     margin-bottom: 18px;
     font-family: "transitional sans-serif";
-}
+  }
 .cross_line:before, .cross_line:after{
   content: '';
   position: absolute;
@@ -127,22 +122,19 @@ header {
   height: calc(100% + 14px);
   background-color: black;
   transition: .5s;
-}
+  }
 .cross_line:before {left: 20px;}
 .cross_line:after {right: 20px;}
 .cross_line:hover:before{
   top: 0px;
   left:0;
   height: 100%;
-}
+  }
 .cross_line:hover:after{
   top: 0px;
   right: 0;
   height: 100%;
-}
-
-
-
+  }
 
 .container-header-ux{                          /* CONTAINER UX*/
 
@@ -150,7 +142,7 @@ header {
   padding: 75px 0px 35px 0px;
   border-bottom: 2.5px solid #d6c6bb; 
   text-align: center;
-}
+  }
 
 
 img.problem{                               /* IMAGES FOR UX*/
@@ -269,8 +261,6 @@ padding-bottom: 10px;
 
 
 
-
-
 .container-header-design{                     /* CONTAINER DESIGN */
 
   background-color: #d6c6bb;
@@ -278,15 +268,12 @@ padding-bottom: 10px;
   border-bottom: 2.5px solid #EDECEC;
   border-top: 2.5px solid #EDECEC;  
   text-align: center;
-}
-
+  }
 
 .col-md-3.design{
   width: 20%;
   margin-left:5%;
-
-
-}
+  }
 
 .container-header-programing{
 
@@ -295,9 +282,7 @@ padding-bottom: 10px;
   border-bottom: 2.5px solid #EDECEC;
   border-top: 2.5px solid #EDECEC;  
   text-align: center;
-}
-
-
+  }
 
 #wrap {                                        /* NAVBAR */
   min-height: 100%;
@@ -305,9 +290,7 @@ padding-bottom: 10px;
   height: 100%;
   /* Negative indent footer by its height */
   margin: 0 auto -60px;
-
-
-}
+  }
 
 .container-skills{
    margin-right: auto;
@@ -316,13 +299,6 @@ padding-bottom: 10px;
     padding-right: 15px;
    background-color: #efeae7;
 }
-
-
-
-
-
-
-
 
 #outside-container{  background-color: #e4dede;
   }
@@ -343,16 +319,15 @@ padding-bottom: 10px;
    .col-md-8 h3 a {
     color: #f5ecec;
     font-family:"transitional sans-serif";
-}
+  }
 
-hr.style{
+  hr.style{
     margin-top: 20px;
     margin-bottom: 20px;
     height: 1px;
     opacity: 1;
     border-left: 380px black solid;
     border-right: 380px black solid;
-
   }
 
   hr.style2{
@@ -363,18 +338,13 @@ hr.style{
     border-left: 550px #c7c7c7 solid;
     border-right: 550px solid #c7c7c7;
     border-top: 1.4px solid #444;
-
   }
 
 
 .container2{ text-align: center;                               /* FOOTER */
       padding: 10px;  font-family: 'Roboto', sans-serif; 
       background-color: black;
-
-  }
-
-
-
+    }
 
 .round-button {
    display: block;
@@ -411,10 +381,10 @@ hr.style{
     padding: 0px;
     margin: 0px;
     margin-top: 15px;
-}
+  }
 .round-buttonux:hover {
     background: #e8e3e3;
-}
+  }
 
 
 .round-buttonprogram {
@@ -431,10 +401,10 @@ hr.style{
     padding: 0px;
     margin: 0px;
     margin-top: 15px;
-}
+  }
 .round-buttonprogram:hover {
     background: #e8e3e3;
-}
+  }
 
 
 
@@ -455,11 +425,7 @@ hr.style{
     margin-bottom: 50px;
     font-family: 'Kaushan Script', cursive;
     
- }
-
-
-
-
+   }
 
  h3{
   font-size: 25.5px;
@@ -488,10 +454,6 @@ h3.contact{
   padding-top: 10px;
   color: #f5ecec
 }
-
-
- }                                        
-
 
 .h2, h2{  color: #f5ecec;
   text-rendering: optimizeLegibility;
@@ -525,8 +487,7 @@ p{
   text-rendering: optimizeLegibility;
   margin: 0 0 10px;
   padding-top: 10px;
-
-}
+  }
 
 h4{
   font-family: 'Modern Antiqua', cursive;
@@ -549,7 +510,7 @@ h4.carousel{
   text-rendering: optimizeLegibility;
   color: #000000;
   text-align: center;
-}
+  }
 
 p.carousel{
 color:#464545;
@@ -559,11 +520,10 @@ color:#464545;
   margin: 0 0 10px;
   padding-top: 10px;
   text-align:center;
-}
+  }
 
 
 p.programming{
-
   color:#464545;
   font-size:25px;
   font-family: "transitional sans-serif";
@@ -574,7 +534,6 @@ p.programming{
 }
 
 p.skills{
-
   color:#464545;
   font-size:25px;
   font-family: "transitional sans-serif";
@@ -585,7 +544,6 @@ p.skills{
 }
 
 p.skills1{
-
   color:#464545;
   font-size:18px;
   font-family: "transitional sans-serif";
@@ -595,7 +553,6 @@ p.skills1{
   padding-left: 7%;}
 
 p.skills2{
-
   color:#464545;
   font-size:18px;
   font-family: "transitional sans-serif";
@@ -607,15 +564,11 @@ p.skills2{
 
 
 p.skillsdesign{
-
   color: #464545;
     font-size: 18px;
     font-family: "transitional sans-serif";
     text-rendering: optimizeLegibility;
-    /* margin: 0 0 10px; */
-    /* padding-top: 10px; */
     text-align: left;
-    /* padding: 10px 20px 30px 40px; */
     margin-right: 20%;
     margin: 0em 25% .5em 6.75%;
     padding-right: 25%;
@@ -674,11 +627,7 @@ p.skillsdesign {
     font-family: "transitional sans-serif";
     text-rendering: optimizeLegibility;
     margin: 0px 10px;
-    /* padding-top: 10px; */
     text-align: left;
-    /* padding: 10px 20px 30px 40px; */
-    /* margin-right: 20%; */
-    /* margin: 0em 25% .5em 6.75%; */
     padding-right: 25%;
   }
 .col-md-4 {
@@ -705,7 +654,6 @@ p.skillsdesign {
     }
 }
 
- 
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -738,11 +686,7 @@ p.skillsdesign {
     font-size: 18px;
     font-family: "transitional sans-serif";
     text-rendering: optimizeLegibility;
-    /* margin: 0 0 10px; */
-    /* padding-top: 10px; */
     text-align: left;
-    /* padding: 10px 20px 30px 40px; */
-    /* margin-right: 20%; */
     margin: 0px;
     padding-right: 25%;
     margin-left: 10%;
@@ -756,7 +700,6 @@ p.skillsdesign {
   .container-header-ux {
     padding: 55px 0px 25px 0px;
     }
-
   .container-header-design {
     padding: 55px 0px 25px 0px;
       }
@@ -764,10 +707,8 @@ p.skillsdesign {
     padding: 55px 0px 25px 0px;
     }
     .col-md-12{
-
       padding-right: 65px;
       padding-left: 65px;
-
     }
     hr.style {
     border-left: 350px black solid;
@@ -798,19 +739,17 @@ p.skillsdesign {
 .jumbotron h1 {
     font-size: 60px;
     margin-top: 0px;
-
   }
   .jumbotron h2 {
     font-size: 20px;
-}
-h3 {
+    }
+    h3 {
     font-size: 18px;
     }
     hr.style {
     border-left: 180px black solid;
     border-right: 180px black solid;
     }
-
     .col-md-12{
       padding-right: 75px;
       padding-left: 75px;
@@ -847,12 +786,11 @@ h3 {
   .jumbotron h1 {
     font-size: 60px;
     margin-top: 0px;
-
   }
   .jumbotron h2 {
     font-size: 20px;
-}
-h3 {
+    }
+    h3 {
     font-size: 18px;
     }
     hr.style {
@@ -891,4 +829,3 @@ h3 {
 
 }
 
- 
