@@ -7,7 +7,7 @@ body.modal-open[style] {
 
 .modal::-webkit-scrollbar {
     width: 0 !important; /*removes the scrollbar but still scrollable*/
-    /* reference: http://stackoverflow.com/a/26500272/2259400 */
+  /* reference: http://stackoverflow.com/a/26500272/2259400 */
 }
 
 body {
@@ -16,7 +16,6 @@ body {
   -webkit-font-smoothing: antialiased;
   padding-right: 0px;
   height: 100%;
-
 }
   
 
@@ -570,7 +569,7 @@ p.skillsdesign{
     text-rendering: optimizeLegibility;
     text-align: left;
     margin-right: 20%;
-    margin: 0em 25% .5em 6.75%;
+    margin: 0%;
     padding-right: 25%;
 }
 
