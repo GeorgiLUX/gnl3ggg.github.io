@@ -109,7 +109,7 @@ header {
     text-decoration: none;
     font-weight: bold;
     color: #404246;
-    margin-bottom: 18px;
+    margin: 0px 15px 18px 25px;
     font-family: "transitional sans-serif";
   }
 .cross_line:before, .cross_line:after{
