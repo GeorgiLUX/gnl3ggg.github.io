@@ -345,25 +345,25 @@ padding-bottom: 10px;
       background-color: black;
     }
 
-.round-button {
+.round-buttondesign {
    display: block;
     width: 180px;
     height: 180px;
     line-height: 100px;
-    border: 0.5px solid #b5aaaa;
+    border: 0.5px solid #000000;
     border-radius: 10%;
     text-align: center;
     text-decoration: none;
     box-shadow: 0 0 0 0.5px #190d0d;
-    color: transparent;
+    background-color: #d6c6bb;;
     padding: 0px;
     margin: 0px;
     margin-top: 15px;
-}
 
 }
-.round-button:hover {
-    background: #caab85;
+
+.round-buttondesign:hover {
+    background: transparent;
 }
 
 .round-buttonux {
@@ -371,18 +371,18 @@ padding-bottom: 10px;
     width: 220px;
     height: 180px;
     line-height: 100px;
-    border: 0.5px solid #b5aaaa;
+    border: 0.5px solid #000000;
     border-radius: 25%;
     text-align: center;
     text-decoration: none;
     box-shadow: 0 0 0 0.5px #190d0d;
-    color: transparent;
+    background-color: #d6c6bb;;
     padding: 0px;
     margin: 0px;
     margin-top: 15px;
   }
 .round-buttonux:hover {
-    background: #e8e3e3;
+    background: transparent;
   }
 
 
@@ -391,18 +391,18 @@ padding-bottom: 10px;
     width: 100%;
     height: 100%;
     line-height: 100px;
-    border: 0.5px solid #b5aaaa;
+    border: 0.5px solid #000000;
     border-radius: 10%;
     text-align: center;
     text-decoration: none;
     box-shadow: 0 0 0 0.5px #190d0d;
-    color: transparent;
+    background-color: #d6c6bb;;
     padding: 0px;
     margin: 0px;
     margin-top: 15px;
   }
 .round-buttonprogram:hover {
-    background: #e8e3e3;
+    background: transparent;
   }
 
 
