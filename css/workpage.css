@@ -64,7 +64,7 @@ body {
 }
 
 
-#outside-container{  background-color: #e4dede}        /* CONTAINER UX IMAGE */
+       /* CONTAINER UX IMAGE */
 
 #container-ux{
  background-image: url('../images/geo.jpg'); opacity: 1.0;
@@ -93,7 +93,7 @@ img.ux{
                                         /* WRAPPER FIRST PROJECT */
 
   #first-project{
-    background-color: #f3f3f3;
+    background-color:#FDF5E6;
   }
 
 img.zaplata{
@@ -117,17 +117,22 @@ hr.style{
 
   #call-to-action{
 
-    background-color: #d6c6bb;
+    background-color:#00b3b3;
   }
 
   .container-call{
-    border-bottom: 2.5px solid #EDECEC  
+    border-bottom: 2.5px solid #EDECEC;
+  }
+  h3.wow.flash.infinite.animated{
+    animation-duration: 4s;
   }
 
   .col-md-6-call{
-
+    padding: 75px 0px 35px 0px;
     text-align: center;
-  }                                       
+    height: 400px;
+}
+                                      
       
 
 .cross_line{
@@ -179,7 +184,7 @@ hr.style{
                                   /* FONT SIZES ETC */
 
 
-.jumbotron h1 {
+.jumbotron h1.wow.fadeIn {
 
     font-size: 130px;
     color: #f5ecec;
@@ -219,7 +224,7 @@ p.meta{
     text-rendering: optimizeLegibility;
     padding-bottom: 10px;
     padding-top: 10px;
-    color: #f5ecec;
+    color: #464545;
   
   }
 
@@ -233,16 +238,24 @@ p.meta{
     padding-top: 10px
   }
 
-  h3.call{
+  h3.wow.flash.infinite{
     color: #464545;
-    font-size: 24px;
+    font-size: 35px;
     font-family: "transitional sans-serif";
     text-rendering: optimizeLegibility;
     text-align: center;
     margin: 0px;
     padding-top: 10px
+  }
 
-
+  p.contactme{
+    color: #464545;
+    font-size: 20px;
+    font-family: "transitional sans-serif";
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px
   }
 
   .navbar-custom .navbar-nav>li>a {
@@ -255,13 +268,18 @@ p.meta{
 /* Large desktops and laptops */
 
 
-
 /* Landscape phones and portrait tablets */
 @media (min-width: 480px) and (max-width: 767px) {
   
-.jumbotron h1 {
+.jumbotron h1.wow.fadeIn {
     font-size: 100px;
     margin-top: 0px;
+  }
+   .col-md-6-call{
+    height: 300px;
+  }
+  p.contactme{
+    font-size: 15px;
   }
 
 }
@@ -269,7 +287,7 @@ p.meta{
 /* Portrait phones and smaller */
 @media  (max-width: 480px)  {
 
-  .jumbotron h1 {
+  .jumbotron h1.wow.fadeIn {
     font-size: 80px;
     margin-top: 0px;
   }
@@ -281,11 +299,18 @@ p.meta{
   p.zaplata {
     font-size: 14px;
   }
-  h3.call{
+  h3.wow.flash.infinite{
 
     font-size: 20px;}
   .footer p{
     color: #464545;
     font-size: 16px;
     }
+
+    .col-md-6-call{
+    height: 250px;
+  }
+  p.contactme{
+    font-size: 10px;
+  }
  } 

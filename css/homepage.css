@@ -6,9 +6,10 @@ body.modal-open[style] {
 }
 
 .modal::-webkit-scrollbar {
-    width: 0 !important; /*removes the scrollbar but still scrollable*/
+    width: 0% !important; /*removes the scrollbar but still scrollable*/
   /* reference: http://stackoverflow.com/a/26500272/2259400 */
 }
+
 
 body {
   padding-top: 0px;
@@ -16,6 +17,10 @@ body {
   -webkit-font-smoothing: antialiased;
   padding-right: 0px;
   height: 100%;
+}
+div.col-md-12{
+  padding-right: 0px;
+  padding-left: 0px;
 }
   
 
@@ -36,7 +41,6 @@ header {
 
 
 #nav.navbar-custom.navbar-inverse.navbar-static-top.affix-top{ /* NAVBAR */
-
   border-top: 1.5px solid #EDECEC;  
   }
 
@@ -89,6 +93,7 @@ header {
     text-align: center;
     background-color: #caab85;
     border-top: 2.5px solid #EDECEC;
+    height: 710px;
     }
 
 
@@ -99,8 +104,21 @@ header {
     padding: 25px 0px 10px 0px;
     }
 
-.cross_line{
+    h3.motivation{
+    font-size: 25.5px;
+    font-family: "transitional sans-serif";
+    text-rendering: optimizeLegibility;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+    top: 100px;
+    line-height: 1.4em;
+    letter-spacing: .05em;
+    padding-left: 50px;
+    padding-right: 50px;
+    }
 
+.cross_line{
     display: inline-block;
     position: relative;
     padding: 2.20em 4em;
@@ -111,6 +129,7 @@ header {
     color: #404246;
     margin: 0px 15px 18px 25px;
     font-family: "transitional sans-serif";
+    top: 230px;
   }
 .cross_line:before, .cross_line:after{
   content: '';
@@ -138,149 +157,211 @@ header {
 .container-header-ux{                          /* CONTAINER UX*/
 
   background-color: #d6c6bb;
-  padding: 75px 0px 35px 0px;
-  border-bottom: 2.5px solid #d6c6bb; 
+  padding: 75px 0px 35px 0px; 
   text-align: center;
+  height: 600px;
+  outline: medium #caab85 solid;
+  outline-style: groove;
   }
 
 
-img.problem{                               /* IMAGES FOR UX*/
-border-radius: 35%;
-vertical-align: middle;
-width: 220px;
-height: 180px;
-padding-top: 15px;
-padding-bottom: 10px;
+img.problem{                           /* IMAGES FOR UX*/;
+border-right: 0.3px solid white;
+}
 
+
+img.research, img.test, img.modelling, img.IA, img.problem{
+width: 100%;
+max-width:100%;
+height: 450px;
+position: relative;
+image-rendering: -webkit-optimize-contrast;
 }
-img.research{
-border-radius: 35%;
-vertical-align: middle;
-width: 220px;
-height: 180px;
-padding-top: 15px;
-padding-bottom: 10px;
-}
-img.test{
-border-radius: 35%;
-vertical-align: middle;
-width: 220px;
-height: 180px;
-padding-top: 15px;
-padding-bottom: 10px;
-}
-img.modelling{
-border-radius: 35%;
-vertical-align: middle;
-width: 220px;
-height: 180px;
-padding-top: 15px;
-padding-bottom: 10px;
-}
-img.IA{
-border-radius: 35%;
-vertical-align: middle;
-width: 220px;
-height: 180px;
-padding-top: 15px;
-padding-bottom: 10px;
-}
+
                                              /* IMAGES FOR PROGRAMMING*/
 
-img.hmtl{                               
+img.hmtl, img.css, img.js{                               
 vertical-align: middle;
-width: 200px;
-height: 180px;
-padding-top: 15px;
-padding-bottom: 10px;
+width: 25%;
+height: 300px;
+image-rendering: -webkit-optimize-contrast;
 
-
-}
-img.css{
-vertical-align: middle;
-width: 160px;
-height: 180px;
-padding-top: 15px;
-padding-bottom: 10px;
 }
 img.bootstrap{
-padding-top: 15px;
-padding-bottom: 10px; 
 vertical-align: middle;
-width: 180px;
-height: 180px;
+width: 24%;
+height: 300px;
 }
-img.js{
-padding-top: 15px;    
-padding-bottom: 10px;
-vertical-align: middle;
-width: 180px;
-height: 180px;
-}
+
 
 
 
                                         /* IMAGES FOR DESIGN*/
 
 
-img.illustrator{
-vertical-align: middle;
-width: 180px;
-height: 180px;
-padding-top: 15px;
-padding-bottom: 10px;
-margin-right: 15px;
-border-radius: 35%;
-}
-img.photoshop{
-vertical-align: middle;
-width: 180px;
-height: 180px;
-padding-top: 15px;
-padding-bottom: 10px;
-margin-left: 15px;
-border-radius: 35%;
-}
-img.balsamiq{
-vertical-align: middle;
-width:  180px;
-height: 180px;
-padding-top: 15px;
-padding-bottom: 10px;
-border-radius: 35%;
-}
-img.axure{
-vertical-align: middle;
-width: 180px;
-height: 180px;
-padding-top: 15px;
-border-radius: 35%;
-padding-bottom: 10px;
-}
+img.illustrator, img.photoshop,img.balsamiq,img.axure {
+width: 100%;
+max-width:100%;
+height:450px;
+position: relative;
+image-rendering: -webkit-optimize-contrast;
 
+}
 
 
 .container-header-design{                     /* CONTAINER DESIGN */
-
+  outline: medium #caab85 solid;
+  outline-style: groove;
   background-color: #d6c6bb;
-  padding: 75px 0px 35px 0px;
-  border-bottom: 2.5px solid #EDECEC;
-  border-top: 2.5px solid #EDECEC;  
+  padding: 75px 0px 35px 0px;  
   text-align: center;
+  height: 600px;
   }
 
-.col-md-3.design{
+.col-md-3.design{                                            
+  width: 25%;
+  margin-left:0%;
+  padding: 0%;
+  position: relative;
+  }
+
+
+.col-md-4.columnskills{
   width: 20%;
-  margin-left:5%;
+  margin-left:0%;
+  padding: 0%;
+  position: relative;
+  padding-left: 0px;
+  height: 100%;
+  }
+
+
+                                          /* FADE IN EFFECTS FOR COL'S */
+
+
+a.design-programming{
+  width: 100%;                   
+  position: relative;
+  height: 100%;
+} 
+
+a.design-programming img.js{
+  width:25%;
+  vertical-align:top-center;
+
+}
+
+
+a.design-programming:after{
+   position:absolute;
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+
+}
+
+a.design-programming:after{
+    width: 100%;
+    height: 100%;
+    top: -147px;
+    left: 5px;
+    background: rgba(0,0,0,0.6);
+    content: attr(data-content);
+    width: 100%;
+    color: #fff;
+    z-index: 1;
+    bottom: 0;
+    padding: 156px 0px;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    color: white;
+    font-size: 24px;
+    font-family: "transitional sans-serif";
+    text-rendering: optimizeLegibility;
+
+
+}
+
+a.design-programming:before{
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    content:'\A';
+   }
+   
+   a.design-programming:hover:after, a.design-programming:hover:before{
+    opacity: 1;
+   }
+
+a.design{  
+  width: 100%;                   
+  position: relative;
+  height: 100%;
+  }
+
+  a.design img.research{
+  width:100%;
+  vertical-align:top-center;
+  }
+  
+
+  a.design:after, a.design:before {
+    position:absolute;
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    }
+
+a.design:after {
+    width: 100%;
+    height: 100%;
+    top: -216px;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    content: '\A';
+    content: attr(data-content);
+    width: 100%;
+    color: #fff;
+    z-index: 1;
+    bottom: 0;
+    padding: 225px 0px;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* vertical-align: middle; */
+    position: absolute;
+    height: 100%;
+    color: white;
+    font-size: 24px;
+    font-family: "transitional sans-serif";
+    text-rendering: optimizeLegibility;
+    bottom: 20px;
+    }
+
+
+a.design:before {
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    content:'\A';
+    }
+
+a.design:hover:after, .col-md-3.design:hover:before {
+    opacity:1;
   }
 
 .container-header-programing{
-
   background-color: #d6c6bb;
   padding: 75px 0px 35px 0px;
-  border-bottom: 2.5px solid #EDECEC;
-  border-top: 2.5px solid #EDECEC;  
+  outline: medium #caab85 solid;
+  outline-style: groove;
   text-align: center;
+  height: 600px;
   }
 
 #wrap {                                        /* NAVBAR */
@@ -297,6 +378,9 @@ padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
    background-color: #efeae7;
+   border-top: 2.5px solid #EDECEC;
+   border-bottom: 2.5px solid #EDECEC;
+
 }
 
 #outside-container{  background-color: #e4dede;
@@ -345,76 +429,20 @@ padding-bottom: 10px;
       background-color: black;
     }
 
-.round-buttondesign {
-   display: block;
-    width: 180px;
-    height: 180px;
-    line-height: 100px;
-    border: 0.5px solid #000000;
-    border-radius: 10%;
-    text-align: center;
-    text-decoration: none;
-    box-shadow: 0 0 0 0.5px #190d0d;
-    background-color: #d6c6bb;;
-    padding: 0px;
-    margin: 0px;
-    margin-top: 15px;
-
-}
-
-.round-buttondesign:hover {
-    background: transparent;
-}
-
-.round-buttonux {
-    display: block;
-    width: 220px;
-    height: 180px;
-    line-height: 100px;
-    border: 0.5px solid #000000;
-    border-radius: 25%;
-    text-align: center;
-    text-decoration: none;
-    box-shadow: 0 0 0 0.5px #190d0d;
-    background-color: #d6c6bb;;
-    padding: 0px;
-    margin: 0px;
-    margin-top: 15px;
-  }
-.round-buttonux:hover {
-    background: transparent;
-  }
-
-
-.round-buttonprogram {
-    display: block;
-    width: 100%;
-    height: 100%;
-    line-height: 100px;
-    border: 0.5px solid #000000;
-    border-radius: 10%;
-    text-align: center;
-    text-decoration: none;
-    box-shadow: 0 0 0 0.5px #190d0d;
-    background-color: #d6c6bb;;
-    padding: 0px;
-    margin: 0px;
-    margin-top: 15px;
-  }
-.round-buttonprogram:hover {
-    background: transparent;
-  }
-
-
-
-
-
-
-
 
 
                                          /* FONTS - SIZES, STYLES, LINE HEIGHT */
-.jumbotron h1{
+.fa-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+    top: 130px;
+  }
+
+.jumbotron h1.wow.fadeIn{
  font-size: 130px;
     color: #f5ecec;
     text-rendering: optimizeLegibility;
@@ -443,23 +471,27 @@ h3.carousel{
   text-align: center;
 }
 
-
 h3.contact{
-
   font-size: 25.5px;
   font-family:"transitional sans-serif";
   text-rendering: optimizeLegibility;
   padding-bottom: 10px;
   padding-top: 10px;
-  color: #f5ecec
+  color: #f5ecec;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+h3.wow.fadeInRight , h3.wow.fadeInLeft{
+  font-size: 25.5px;
+  font-family:"transitional sans-serif";
+  text-rendering: optimizeLegibility;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #f5ecec;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
-.h2, h2{  color: #f5ecec;
-  text-rendering: optimizeLegibility;
-  font-family: 'Modern Antiqua', cursive;
-  margin: .5em 6.75% .5em 6.75%;
-  font-size: 40px;
- }
 
  h2.carousel{  color: #000000;
   text-rendering: optimizeLegibility;
@@ -484,8 +516,8 @@ p{
   font-size:18px;
   font-family: "transitional sans-serif";
   text-rendering: optimizeLegibility;
-  margin: 0 0 10px;
-  padding-top: 10px;
+  margin: 0px;
+  padding-top: 0px;
   }
 
 h4{
@@ -510,6 +542,16 @@ h4.carousel{
   color: #000000;
   text-align: center;
   }
+  h4.header{
+    font-family: 'Modern Antiqua', cursive;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-rendering: optimizeLegibility;
+    color: #000000;
+    position: relative;
+    top: 140px;
+  }
 
 p.carousel{
 color:#464545;
@@ -522,56 +564,6 @@ color:#464545;
   }
 
 
-p.programming{
-  color:#464545;
-  font-size:25px;
-  font-family: "transitional sans-serif";
-  text-rendering: optimizeLegibility;
-  margin: 0 0 10px;
-  padding-top: 10px;
-  text-align:center;
-}
-
-p.skills{
-  color:#464545;
-  font-size:25px;
-  font-family: "transitional sans-serif";
-  text-rendering: optimizeLegibility;
-  margin: 0 0 10px;
-  padding-top: 10px;
-  text-align:center;
-}
-
-p.skills1{
-  color:#464545;
-  font-size:18px;
-  font-family: "transitional sans-serif";
-  text-rendering: optimizeLegibility;
-  margin: 0 0 10px;
-  padding-top: 10px;
-  padding-left: 7%;}
-
-p.skills2{
-  color:#464545;
-  font-size:18px;
-  font-family: "transitional sans-serif";
-  text-rendering: optimizeLegibility;
-  margin: 0 0 10px;
-  padding-top: 10px;
-  padding-left: 15%;
-}
-
-
-p.skillsdesign{
-  color: #464545;
-    font-size: 18px;
-    font-family: "transitional sans-serif";
-    text-rendering: optimizeLegibility;
-    text-align: left;
-    margin-right: 20%;
-    margin: 0%;
-    padding-right: 25%;
-}
 
 
 .carousel-inner-webdev {                               /* CAROUSEL CSS */
@@ -582,6 +574,10 @@ p.skillsdesign{
     border-radius: 15%
 }
 
+.navbar-custom .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a {
+background-color: #847e7e;
+}
+
 
 
 /** Media resolution optimization-/**
@@ -589,18 +585,17 @@ p.skillsdesign{
 /* Large desktops and laptops */
 
 
-  
 
 @media (min-width: 1199px){
 
-
+  div.col-md-12{
+  padding-right: 0px;
+  padding-left: 0px;
+}
 
 .col-md-4.columnskills{
-     width: 16%;
-    margin-left: 3%;
-    padding-bottom: 1%;
-    padding-right: 2%;
-
+     width: 20%;
+     padding-left: 0px;
 }
 
 .col-md-3.columnthree{
@@ -609,31 +604,16 @@ p.skillsdesign{
     padding-bottom: 1%;
     padding-right: 2%;
   }
-}
+
+a.design-programming:after {
+    left: 3px;
+  }
+ } 
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
 
-  .col-md-3.design {
-    width: 19%;
-    margin-left: 4%;
-  }
-p.skillsdesign {
-    color: #464545;
-    font-size: 16px;
-    font-family: "transitional sans-serif";
-    text-rendering: optimizeLegibility;
-    margin: 0px 10px;
-    text-align: left;
-    padding-right: 25%;
-  }
-.col-md-4 {
-    width: 20%;
-    margin-left: 10%;
-  }
 .jumbotron {
-    text-align: center;
-    background-image: url(../images/summer.jpg);
     padding-top: 0px;
     padding-bottom: 80px;
     margin: 0px;
@@ -646,14 +626,39 @@ p.skillsdesign {
     border-left: 260px black solid;
     border-right: 260px black solid;
   }
-  img.photoshop {
-    margin-left: 0px;
+
+    a.design-programming:after {
+    left: 3px;
+    font-size: 20px;
     }
-    p.skills2 {
-    font-size: 16px;
-  }
-    p.skills1 {
-    font-size: 16px;
+    a.design:after{
+    font-size: 20px;
+    top: -167px;
+    padding: 175px 0px;
+    }
+
+    img.illustrator, img.photoshop, img.balsamiq, img.axure, img.problem, img.research, 
+    img.test, img.modelling, img.IA,
+    img.photoshop{
+    height: 350px;
+    image-rendering: -webkit-optimize-contrast;
+    }
+    img.bootstrap{
+    width: 23%;
+    image-rendering: -webkit-optimize-contrast;
+    }
+
+    .cross_line {
+    top: 200px;
+    }
+
+    h3.motivation {
+    top:140px;
+    }
+
+ol.carousel-indicators{
+
+  padding-top: 20px;
   }
 }
 
@@ -667,48 +672,34 @@ p.skillsdesign {
     padding-bottom: 80px;
     margin: 0px;
   }
-  h3 {
+
+  .container-motivation {
+    height: 650px;
+  }
+  .container-header-ux, .container-header-design, .container-header-programming {height: 500px;
+  }
+  .cross_line {
+    top: 120px;
+    }
+
+   h3.wow.fadeInRight, h3.wow.fadeInLeft {
     font-size: 20.5px;
   }
-
-  .cross_line {
-    display: inline-block;
-    position: relative;
-    padding: 2.20em 4em;
-    border-top: solid 4px black;
-    border-bottom: solid 4px black;
-    text-decoration: none;
-    font-weight: bold;
-    color: #404246;
-    margin-bottom: 10px;
-    font-family: "transitional sans-serif";
+  h3.motivation {
+    top:70px;
+    font-size: 20.5px;
     }
 
-    p.skillsdesign {
-    color: #464545;
-    font-size: 18px;
-    font-family: "transitional sans-serif";
-    text-rendering: optimizeLegibility;
-    text-align: left;
-    margin: 0px;
-    padding-right: 25%;
-    margin-left: 10%;
-    }
-    .jumbotron h1 {
+    .jumbotron h1.wow.fadeIn {
     font-size: 100px;
     }
-    .jumbotron h2 {
+    .jumbotron h2.wow.fadeIn {
     font-size: 35px;
     } 
-  .container-header-ux {
+  .container-header-ux, .container-header-design, .container-header-programing {
     padding: 55px 0px 25px 0px;
     }
-  .container-header-design {
-    padding: 55px 0px 25px 0px;
-      }
-      .container-header-programing {
-    padding: 55px 0px 25px 0px;
-    }
+
     .col-md-12{
       padding-right: 65px;
       padding-left: 65px;
@@ -718,18 +709,25 @@ p.skillsdesign {
     border-right: 350px black solid;
     }
 
-    p.programming{
-      font-size:20px;
-      }
-      img.photoshop {
-    margin-left: 0px;
-    }
     p.carousel {
     font-size: 20px;
     }
     h4.carousel {
     font-size: 30px;
 
+        }
+        a.design-programming:after {
+ 
+        font-size: 15px;
+        }
+        a.design:after{
+        font-size: 15px;
+        }
+        .col-md-4.columnskills, .col-md-3.design{
+          float: left;
+        }
+        img.hmtl{
+          width: 24%;
         }
 
  }
@@ -739,11 +737,15 @@ p.skillsdesign {
 /* Landscape phones and portrait tablets */
 @media (min-width: 480px) and (max-width: 767px) {
 
-.jumbotron h1 {
+
+  .container-header-ux, .container-header-design, .container-header-programming {height: 500px;
+  }
+
+.jumbotron h1.wow.fadeIn {
     font-size: 60px;
     margin-top: 0px;
   }
-  .jumbotron h2 {
+  .jumbotron h2.wow.fadeIn {
     font-size: 20px;
     }
     h3 {
@@ -757,9 +759,6 @@ p.skillsdesign {
       padding-right: 75px;
       padding-left: 75px;
     }
-    p.programming{
-      font-size:18px;
-      }
       h4 {
     font-size: 30px;
       }
@@ -769,33 +768,64 @@ p.skillsdesign {
     p.footer{
       font-size: 14px;
     }
-    img.photoshop {
-    margin-left: 0px;
-    }
     p.carousel {
     font-size: 15px;
     }
     h4.carousel {
     font-size: 25px;
+    }
+    h3.motivation{
+      font-size: 18px;
+      top: 30px;
+    }
+
+    h4.header {font-size: 35px;
+    }
+    .cross_line {
+    top: 70px;
+    }
+    .col-md-4.columnskills, .col-md-3.design{
+          float: left;
+          height: 300px;
+        }
+        a.design-programming:after {
+        
+        font-size: 15px;
+        }
+        a.design:after{
+        font-size: 15px;
+        top: -142px;
+        padding: 150px 0px;
+        }
+        img.bootstrap{
+          width: 22%;
+          image-rendering: -webkit-optimize-contrast;
+        }
+         
+        img.illustrator, img.photoshop, img.balsamiq, img.axure, img.problem, img.research, 
+        img.test, img.modelling, img.IA,
+        img.photoshop{
+          height: 300px;
+          image-rendering: -webkit-optimize-contrast;
+         }
+
 
         }
-}
-
-
 
 /* Portrait phones and smaller */
 @media  (max-width: 480px)  {
 
-  .jumbotron h1 {
+  .jumbotron h1.wow.fadeIn {
     font-size: 60px;
     margin-top: 0px;
   }
   .jumbotron h2 {
     font-size: 20px;
     }
-    h3 {
+    h3.wow.fadeInRight, h3.wow.fadeInLeft{
     font-size: 18px;
     }
+
     hr.style {
     border-left: 180px black solid;
     border-right: 180px black solid;
@@ -805,9 +835,6 @@ p.skillsdesign {
       padding-right: 75px;
       padding-left: 75px;
     }
-    p.programming{
-      font-size:18px;
-      }
       h4 {
     font-size: 30px;
       }
@@ -827,7 +854,43 @@ p.skillsdesign {
     }
     h4.carousel {
     font-size: 22px;
+        }
+    h3.motivation{
+      font-size: 16px;
+      top: 30px;
+    }
 
+    h4.header {font-size: 35px;
+    }
+    .cross_line {
+    top: 30px;
+    }
+    .col-md-4.columnskills, .col-md-3.design{
+          float: left;
+          height: 300px;
+        }
+        a.design-programming:after {
+        
+        font-size: 15px;
+        }
+        a.design:after{
+        font-size: 13px;
+        top: -142px;
+        padding: 150px 0px;
+        }
+        img.bootstrap{
+          width: 20%;
+          image-rendering: -webkit-optimize-contrast;
+        }
+          img.illustrator, img.photoshop, img.balsamiq, img.axure, img.problem, img.research, 
+          img.test, img.modelling, img.IA,
+          img.photoshop{
+          height: 300px;
+          image-rendering: -webkit-optimize-contrast;
+         }
+
+
+          .container-header-ux, .container-header-design, .container-header-programming {height: 500px;
         }
 
 }
