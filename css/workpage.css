@@ -116,8 +116,7 @@ hr.style{
                                            /* CAL TO ACTION WRAPPER AND CONTAINER */
 
   #call-to-action{
-
-    background-color:#00b3b3;
+  background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
   }
 
   .container-call{
