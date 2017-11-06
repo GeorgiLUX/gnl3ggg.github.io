@@ -10,6 +10,9 @@ body.modal-open[style] {
   /* reference: http://stackoverflow.com/a/26500272/2259400 */
 }
 
+.container-skills{
+  cursor: pointer;
+} 
 
 body {
   padding-top: 0px;
@@ -42,6 +45,11 @@ header {
 
 #nav.navbar-custom.navbar-inverse.navbar-static-top.affix-top{ /* NAVBAR */
   border-top: 1.5px solid #EDECEC;  
+  border-bottom: 1.5px solid #EDECEC;
+  }
+
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    font-family: 'Fredericka the Great', cursive;
   }
 
 #nav {
@@ -91,9 +99,10 @@ header {
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
-    background-color: #caab85;
-    border-top: 2.5px solid #EDECEC;
+    background: linear-gradient(135deg, rgba(244,226,156,0) 0%,rgba(144, 103, 72, 1) 100%), 
+    linear-gradient(to bottom, rgba(244,226,156,1) 0%,rgb(138, 41, 16) 100%);
     height: 710px;
+    border-top: 1px solid #EDECEC;
     }
 
 
@@ -155,13 +164,11 @@ header {
   }
 
 .container-header-ux{                          /* CONTAINER UX*/
-
-  background-color: #d6c6bb;
+  background-image: linear-gradient(#8b9da9, #fff6e4);
+  box-shadow: inset 0 0 100px hsla(0,0%,0%,.3);
   padding: 75px 0px 35px 0px; 
   text-align: center;
   height: 600px;
-  outline: medium #caab85 solid;
-  outline-style: groove;
   }
 
 
@@ -182,15 +189,20 @@ image-rendering: -webkit-optimize-contrast;
 
 img.hmtl, img.css, img.js{                               
 vertical-align: middle;
-width: 25%;
+width: 20%;
 height: 300px;
 image-rendering: -webkit-optimize-contrast;
-
 }
 img.bootstrap{
 vertical-align: middle;
-width: 24%;
+width: 19%;
 height: 300px;
+}
+img.foundation{
+vertical-align: middle;
+width: 15%;
+height: 300px;
+image-rendering: -webkit-optimize-contrast;
 }
 
 
@@ -210,9 +222,8 @@ image-rendering: -webkit-optimize-contrast;
 
 
 .container-header-design{                     /* CONTAINER DESIGN */
-  outline: medium #caab85 solid;
-  outline-style: groove;
-  background-color: #d6c6bb;
+  background-image: linear-gradient(#8b9da9, #fff6e4);
+  box-shadow: inset 0 0 100px hsla(0,0%,0%,.3);
   padding: 75px 0px 35px 0px;  
   text-align: center;
   height: 600px;
@@ -356,10 +367,9 @@ a.design:hover:after, .col-md-3.design:hover:before {
   }
 
 .container-header-programing{
-  background-color: #d6c6bb;
+  background-image: linear-gradient(#8b9da9, #fff6e4);
+  box-shadow: inset 0 0 100px hsla(0,0%,0%,.3);
   padding: 75px 0px 35px 0px;
-  outline: medium #caab85 solid;
-  outline-style: groove;
   text-align: center;
   height: 600px;
   }
@@ -401,7 +411,7 @@ a.design:hover:after, .col-md-3.design:hover:before {
 
    .col-md-8 h3 a {
     color: #f5ecec;
-    font-family:"transitional sans-serif";
+    font-family: 'Fredericka the Great', cursive;
   }
 
   hr.style{
@@ -450,13 +460,13 @@ a.design:hover:after, .col-md-3.design:hover:before {
     letter-spacing: .05em;
     margin-top: 50px;
     margin-bottom: 50px;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Fredericka the Great';
     
    }
 
  h3{
   font-size: 25.5px;
-  font-family:"transitional sans-serif";
+ font-family: 'Fredericka the Great', cursive;;
   text-rendering: optimizeLegibility;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -464,7 +474,7 @@ a.design:hover:after, .col-md-3.design:hover:before {
 
 h3.carousel{
   font-size: 25.5px;
-  font-family:"transitional sans-serif";
+  font-family: 'Fredericka the Great', cursive;
   text-rendering: optimizeLegibility;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -473,7 +483,7 @@ h3.carousel{
 
 h3.contact{
   font-size: 25.5px;
-  font-family:"transitional sans-serif";
+  font-family: 'Fredericka the Great', cursive;
   text-rendering: optimizeLegibility;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -483,7 +493,7 @@ h3.contact{
 }
 h3.wow.fadeInRight , h3.wow.fadeInLeft{
   font-size: 25.5px;
-  font-family:"transitional sans-serif";
+  font-family: 'Fredericka the Great', cursive;
   text-rendering: optimizeLegibility;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -495,7 +505,7 @@ h3.wow.fadeInRight , h3.wow.fadeInLeft{
 
  h2.carousel{  color: #000000;
   text-rendering: optimizeLegibility;
-  font-family: 'Modern Antiqua', cursive;
+  font-family: 'Fredericka the Great', cursive;
   margin: .5em 6.75% .5em 6.75%;
   font-size: 30px;
   text-align: center;
@@ -504,7 +514,7 @@ h3.wow.fadeInRight , h3.wow.fadeInLeft{
 .jumbotron h2{
   color: #f5ecec;
   text-rendering: optimizeLegibility;
-  font-family: 'Modern Antiqua', cursive;
+  font-family: 'Fredericka the Great', cursive;
   margin: .5em 6.75% .5em 6.75%;
   font-size: 40px;
  }
@@ -531,10 +541,11 @@ h4{
 
 h4.contact{
   color: #f5ecec;
+  font-family: 'Fredericka the Great';
 }
 
 h4.carousel{
-  font-family: 'Modern Antiqua', cursive;
+  font-family: 'Fredericka the Great', cursive;
   font-size:40px;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -543,7 +554,7 @@ h4.carousel{
   text-align: center;
   }
   h4.header{
-    font-family: 'Modern Antiqua', cursive;
+    font-family: 'Fredericka the Great';
     font-size: 50px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -556,7 +567,7 @@ h4.carousel{
 p.carousel{
 color:#464545;
   font-size:25px;
-  font-family: "transitional sans-serif";
+  font-family: 'Fredericka the Great', cursive;
   text-rendering: optimizeLegibility;
   margin: 0 0 10px;
   padding-top: 10px;
@@ -608,6 +619,10 @@ background-color: #847e7e;
 a.design-programming:after {
     left: 3px;
   }
+  img.foundation{
+          width: 14.5%;
+          image-rendering: -webkit-optimize-contrast;
+         }
  } 
 
 /* Landscape tablets and medium desktops */
@@ -660,6 +675,10 @@ ol.carousel-indicators{
 
   padding-top: 20px;
   }
+  img.foundation{
+          width: 10%;
+          image-rendering: -webkit-optimize-contrast;
+         }
 }
 
 
@@ -729,6 +748,10 @@ ol.carousel-indicators{
         img.hmtl{
           width: 24%;
         }
+        img.foundation{
+          width: 10%;
+          image-rendering: -webkit-optimize-contrast;
+         }
 
  }
     
@@ -806,6 +829,10 @@ ol.carousel-indicators{
         img.test, img.modelling, img.IA,
         img.photoshop{
           height: 300px;
+          image-rendering: -webkit-optimize-contrast;
+         }
+         img.foundation{
+          width: 10%;
           image-rendering: -webkit-optimize-contrast;
          }
 
@@ -888,7 +915,10 @@ ol.carousel-indicators{
           height: 300px;
           image-rendering: -webkit-optimize-contrast;
          }
-
+         img.foundation{
+          width: 11%;
+         }
+        
 
           .container-header-ux, .container-header-design, .container-header-programming {height: 500px;
         }

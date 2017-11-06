@@ -38,6 +38,10 @@ body {
 }
 
 /* customize nav style */
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+  font-family: 'Fredericka the Great', cursive;
+}
+
 .navbar-custom {
     background-color: #2e2e2e;
   font-weight:700;
@@ -93,7 +97,25 @@ img.ux{
                                         /* WRAPPER FIRST PROJECT */
 
   #first-project{
-    background-color:#FDF5E6;
+    background: rgb(105,155,200);
+background: -moz-radial-gradient(top left, ellipse cover, rgba(105,155,200,1) 0%, rgba(181,197,216,1) 57%);
+ background: -webkit-gradient(radial, top left, 0px, top left, 100%, color-stop(0%,rgba(105,155,200,1)), color-stop(57%,rgba(181,197,216,1)));
+ background: -webkit-radial-gradient(top left, ellipse cover, rgba(105,155,200,1) 0%,rgba(181,197,216,1) 57%);
+ background: -o-radial-gradient(top left, ellipse cover, rgba(105,155,200,1) 0%,rgba(181,197,216,1) 57%);
+ background: -ms-radial-gradient(top left, ellipse cover, rgba(105,155,200,1) 0%,rgba(181,197,216,1) 57%);
+ background: radial-gradient(ellipse at top left, rgba(105,155,200,1) 0%,rgba(181,197,216,1) 57%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#699bc8', endColorstr='#b5c5d8',GradientType=1 );
+     border-bottom: 5px solid #93a1aa;
+    border-top: 5px solid #a0b9cf;
+  }
+  #second-project{
+    border-top: 5px solid #c1c1c1;
+    background: #092756;
+ background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%),-moz-linear-gradient(top, rgba(57,173,219,.25) 0%, rgba(42,60,87,.4) 100%), -moz-linear-gradient(-45deg, #e2bebf 0%,#aebdd4 100%);
+ background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -webkit-linear-gradient(top, rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -webkit-linear-gradient(-45deg, #e2bebf 0%,#aebdd4 100%);
+ background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -o-linear-gradient(top, rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -o-linear-gradient(-45deg, #e2bebf 0%,#aebdd4 100%);
+ background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -ms-linear-gradient(top, rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -ms-linear-gradient(-45deg, #e2bebf 0%,#aebdd4 100%);
+ background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), linear-gradient(to bottom, rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), linear-gradient(135deg, #e2bebf 0%,#aebdd4 100%););
   }
 
 img.zaplata{
@@ -101,6 +123,11 @@ img.zaplata{
     opacity: 0.9;
     border-radius: 40px;
     margin-bottom: 25px;
+}
+img.deutchpunkt{
+      width: 100%;
+    opacity: 0.9;
+    margin-bottom: -45px;
 }
 
 hr.style{
@@ -116,7 +143,8 @@ hr.style{
                                            /* CAL TO ACTION WRAPPER AND CONTAINER */
 
   #call-to-action{
-  background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+      background-image: linear-gradient(#8b9da9, #fff6e4);
+    box-shadow: inset 0 0 100px hsla(0,0%,0%,.3);
   }
 
   .container-call{
@@ -192,12 +220,12 @@ hr.style{
     letter-spacing: .05em;
     margin-top: 50px;
     margin-bottom: 50px;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Fredericka the Great', cursive;
 
 }
 
 h2{
-    font-family: 'Modern Antiqua', cursive;
+    font-family: 'Fredericka the Great', cursive;
     font-size: 40px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -207,15 +235,15 @@ h2{
 }
 
 p.meta{
-
     text-align: center;
     font-family: "transitional sans-serif";
     font-size: 14px;
     margin-bottom: 0;
     text-transform: uppercase;
     letter-spacing: .02em;
-    color: #cbcbcb;
+    color: #ffffff;
     margin-bottom: 20px;
+    margin-top: 35px;
 }
 
 .footer p { font-size: 20px;
@@ -230,17 +258,18 @@ p.meta{
   p.zaplata{
     color: #464545;
     font-size: 18px;
-    font-family: "transitional sans-serif";
+    font-family: 'Fredericka the Great', cursive;
     text-rendering: optimizeLegibility;
     text-align: center;
     margin: .5em 13.45% .5em 13.45%;
-    padding-top: 10px
+    padding-top: 10px;
+    padding-bottom: 80px;
   }
 
   h3.wow.flash.infinite{
     color: #464545;
     font-size: 35px;
-    font-family: "transitional sans-serif";
+    font-family: 'Fredericka the Great', cursive;
     text-rendering: optimizeLegibility;
     text-align: center;
     margin: 0px;
@@ -250,7 +279,7 @@ p.meta{
   p.contactme{
     color: #464545;
     font-size: 20px;
-    font-family: "transitional sans-serif";
+    font-family: 'Fredericka the Great', cursive;
     text-rendering: optimizeLegibility;
     text-align: center;
     margin: 0px;
@@ -271,7 +300,7 @@ p.meta{
 @media (min-width: 480px) and (max-width: 767px) {
   
 .jumbotron h1.wow.fadeIn {
-    font-size: 100px;
+    font-size: 93px;
     margin-top: 0px;
   }
    .col-md-6-call{
