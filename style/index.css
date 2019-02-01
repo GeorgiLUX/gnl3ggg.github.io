@@ -1,0 +1,223 @@
+html{
+}
+
+
+body{
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  min-height: min-content;
+  background-image: url(../images/stars.png);
+  background-repeat: repeat;
+  text-align: center;
+}
+
+
+
+/*OVERALL GRID */
+
+div.grid,div.header,div.portal{
+  display: grid;
+}
+
+div.grid{
+  grid-template-areas: "header"
+                        "portal" ;
+  grid-template-rows: 2fr; 
+  grid-template-columns: 1fr;
+}
+
+
+/* HEADER*/
+
+div.header{
+  grid-area: header ;
+  margin-bottom: 5em;
+}
+
+
+/*WELCOME ANIMATION CODE*/
+
+
+div.anim-quote{  
+height: 100%;
+margin: 0;
+box-sizing: border-box;
+margin-top: 4em;
+}
+div.anim-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    flex-direction: column;
+}
+blockquote {
+   display: block;
+  margin: 0 auto;
+  text-align: center;
+  min-width: 50vw;
+    min-height: 54vh;
+}
+p.anime,
+cite.quote {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p.anime {
+  margin: 0 auto;
+  color: #fff;
+  font-size: 1.4em;
+  font-style: italic;
+  font-weight: 300;
+  padding-bottom: 2rem;
+  letter-spacing: 0.18em;
+}
+small.quote {
+  will-change: opacity;
+  opacity: 0;
+}
+small.animate {
+  opacity: 1;
+  -webkit-filter: blur(0) !important;
+  font-size: 2em;
+}
+cite.quote {
+  font-size: 1em;
+  color: #aaa;
+  opacity: 0;
+  font-style: normal;
+  font-weight: 500;
+}
+cite.animate {
+  opacity: 1;
+}
+
+
+
+/* PORTAL */
+
+div.portal{
+  grid-area: portal;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-template-areas: "portalux" "portaldm";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+}
+
+
+
+div.grid-portalux,{
+  grid-area: portalux;
+}
+div.grid-portaldm{
+  grid-area: portaldm;
+}
+
+img.image-portal{
+    object-fit: fill;
+    border-radius: 50%;
+    width: 725%;
+    height: 1290%;
+    position: relative;
+    bottom: 500%;
+    left: -324%;
+}
+
+
+#portaltextux,#portaltextdm{
+   color: #ffffff;
+    font-size: 1em;
+    margin-top: 5em;
+    font-size: 2.4em;
+    letter-spacing: 0.18em;
+    text-align: center;
+    align-self: center;
+}
+
+
+h1,h2,p,cite{
+  text-shadow: 0px 0px 30px white, 0px 0px 30px black, 0px 0px 30px black, 0px 0px 10px #000000, 0px 0px 10px #ffffff;
+  font-family: 'Cheque-Regular';
+}
+
+@font-face {
+ font-family: Cheque-Regular; src: url('fonts/Cheque-Regular.TTF');
+ src: url('fonts/Cheque-Regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Cheque-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Cheque-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Cheque-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Cheque-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
+  /*OPTIMIZ */
+
+  /*MOBILE */
+
+
+  @media only screen and (min-width:362px) and (max-width: 812px) {
+    div.header {
+    margin-bottom: 0;
+    margin:5%;
+
+}
+
+blockquote {
+    min-height: 40vh;
+}
+p.anime{
+  font-size: 0.7em;
+}
+#portaltextux,#portaltextdm{
+  font-size: 1.4em;
+}
+
+    .holder {
+    width: 100%;
+    height: 22em;
+    padding-top: 3em;
+}
+.holder .circle {
+    left: 6em;
+    bottom: 18em;
+    max-width: 15vh;
+    max-height: 8vh;
+}
+
+}
+
+  /*tablet */
+
+  @media only screen and (min-width: 815px) and (max-width: 1280px) {
+    .holder {
+      width: 100%;
+      height: 22em;
+      padding-top: 3em;
+    }
+    .holder .circle {
+    left: 13em;
+    bottom: 12em;
+    max-width: 17vh;
+    max-height: 13vh;
+    }
+
+       
+
+    div.header {
+    margin-bottom: 0;
+    margin:5%;
+  }
+
+blockquote {
+    min-height: 40vh;
+  }
+p.anime{
+  font-size: 1.05em;
+  }
+#portaltextux,#portaltextdm{
+  font-size: 1.4em;
+  }
+
+}
+

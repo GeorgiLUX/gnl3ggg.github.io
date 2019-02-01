@@ -1,0 +1,36 @@
+#auto-gradient-animation {
+  width: 100%;
+  height: auto;
+  
+  align-items: center;
+  justify-content: center;
+  background-size: 300% 300%;
+  background-image: linear-gradient(to right bottom, #c74646, #5d1f1f, #000000, #171179, #101f6d);
+    -webkit-animation: AnimateBG 12s ease infinite;
+    animation: AnimateBG 12s ease infinite;
+    border-radius: 1em;
+}
+
+@-webkit-keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
