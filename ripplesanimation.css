@@ -1,0 +1,51 @@
+
+h1.flick,h2.flick{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.1em;
+
+}
+span.flick {
+          color: #757ea0;
+    text-shadow: 0px 0px 15px;
+      animation: flicker-text 2s linear 0s infinite;
+  justify-content: center;
+  align-items: center;
+    }
+
+@keyframes flicker-text {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  79% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  84% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 1;
+  }
+  89% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,24 @@
+
+
+
+
+@font-face {
+    font-family: 'Cheque-Regular';
+    src: url('../fonts/Cheque-Regular.woff2') format('woff2'),
+         url('../fonts/Cheque-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Cheque-Black';
+    src: url('../fonts/Cheque-Black.woff2') format('woff2'),
+         url('../fonts/Cheque-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
