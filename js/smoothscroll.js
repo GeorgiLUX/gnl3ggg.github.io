@@ -1,11 +1,4 @@
 
-/**
- * JavaScript Momentum Scroll
- * This will transform the native scroll of the browser into a very smooth scroll with momentum effect
- * https://github.com/iahnn/mScroll/
- * licensed under MIT
- * version 1.0
- */
 (function() {
 
     "use strict";
