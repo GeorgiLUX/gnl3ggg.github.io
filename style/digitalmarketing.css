@@ -61,7 +61,7 @@ nav{
 nav ul a {
   color: #888888;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 15px;
   transition: all 500ms linear;
   }
   a.sticky-nava,a{
@@ -74,6 +74,11 @@ a.sticky-nava{
     align-self: center;
     text-align: center;
     color: white;
+}
+
+a.uxd{
+
+color=#00b5ff;
 }
 
 nav ul li.active{
